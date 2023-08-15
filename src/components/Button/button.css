@@ -1,0 +1,32 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-primary {
+  border: none;
+  outline: none;
+  background-color: #d01c28;
+  color: #ffff;
+}
+
+.btn-primary:hover {
+  background-color: #82040c;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-outline {
+  outline: auto;
+  background-color: #ffff;
+  color: #5a5959;
+}
+
+.btn-outline:hover {
+  background-color: #edebeb;
+  transition: 0.5s ease-in-out;
+}
